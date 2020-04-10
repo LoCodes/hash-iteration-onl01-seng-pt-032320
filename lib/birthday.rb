@@ -8,9 +8,9 @@
 #   prints out a birthday message to each kid in the birthday_kids hash
 
 def happy_birthday(birthday_kids)
-  birthday_kids.each do |name, age| 
+  birthday_kids.each do |name, age|
     #if age < 12 == birthday_kids && age
     puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
   end 
-  
+
 end
