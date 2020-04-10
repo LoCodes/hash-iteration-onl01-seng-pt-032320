@@ -14,6 +14,9 @@ def happy_birthday(birthday_kids)
 end
 
 
+# #age_appropriate_birthday
+#   only prints the birthday greeting if the birthday kid 12 or younger
+
 def age_appropriate_birthday(birthday_kids)
   birthday_kids.each do |kids_name, age|
     if age < 12
