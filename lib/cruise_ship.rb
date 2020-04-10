@@ -6,6 +6,9 @@
 # suite_e: "Crumpet the Elf"
 # }
 
+# #select_winner
+#   returns the name of the passenger who stays in suite a and whose name begins with the letter 'A'
+
 def select_winner(passengers)
   winner = ""                            #passengers[:suite_a]
   passengers.each do |suite, name|
